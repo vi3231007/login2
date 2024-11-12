@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="clips1">
+            <div class="clip1"></div>
+            <div class="clip2"></div>
+        </div>
+        <div class="clip3"></div>
+    </div>
+
+    <div class="login">
+        <div class="login2">
+            <form action="login.php" method="post">
+                <div class="log">
+                    <h1 style="text-align: center;font-style: bold;text-transform: capitalize;">login</h1>
+        
+                    
+                    <label for="user"  class="la">Username</label>
+                    <span class="spa"><ion-icon name="person-outline"></ion-icon></span>
+                    <input class="in in2" type="text" name="user" placeholder="Type your username" required>
+        
+                    <label for="pass" class="la">Pasword</label>
+                    <span class="spa"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input class="in in2 " type="text" name="pass" placeholder="Type the password" required>
+        
+                    <a href="#" class="fo">Forgot password?</a>
+        
+                    <button class="btn" id="btn">login</button>
+                    <p style="text-align: center;">Or Sign Up Using</p>
+        
+                    <div class="logo">
+                    </div>
+                    <p style="text-align: center;margin-top: 70px;">Having not acount yet</p>
+                    <a href="#" class="sbtn2 btn2">SIGNUP</a>
+                </div>
+            </form>
+    
+            <form action="register.php" method="post">
+                <div class="reg">
+                    <h1 style="text-align: center;font-style: bold;text-transform: capitalize;">Register</h1>
+        
+                    
+                    <label for="user" class="la">Username</label>
+                    <span class="spa"><ion-icon name="person-outline"></ion-icon></span>
+                    <input class="in in2" name="user" type="text" placeholder="Type your username">
+    
+                    <label for="user" class="la">Email</label>
+                    <span class="spa"><ion-icon name="person-outline"></ion-icon></span>
+                    <input class="in in2" name="email" type="text" id="email" placeholder="Type your Email">
+        
+                    <label for="pass" class="la">Password</label>
+                    <span class="spa"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input class="in in2 " name="pass" type="text" placeholder="Type the password">
+        
+                    <button class="btn" id="btn" type="submit">sign up</button>
+        
+                    <p style="text-align: center;margin-top: 50px;" id="para">Already having an account</p>
+                    <a href="#" class="lbtn2 btn2">LOGIN</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="logo.js"></script>
+    <script src="login.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
